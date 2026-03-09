@@ -1,0 +1,23 @@
+# Build output
+WebProject/bin/
+WebProject/obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+
+# NuGet packages (restore on build)
+packages/
+
+# Database log files
+*.ldf
+
+# Claude Code
+.claude/
+CLAUDE.md
+
+# Reference docs
+example.md
+report.md

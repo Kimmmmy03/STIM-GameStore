@@ -1,0 +1,31 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebProject.Site" %>
+
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="~/Styles/StyleSheet1.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+ <form id="form1" runat="server">
+     <div class="navbar">
+         <div class="nav">
+             <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="HomePage.aspx">HOMEPAGE</asp:HyperLink>&nbsp  &nbsp
+             <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="Store.aspx">STORE</asp:HyperLink>&nbsp  &nbsp
+             <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="AboutUs.aspx">ABOUT BUSINESS</asp:HyperLink>&nbsp  &nbsp
+             <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="Profile.aspx">PROFILE</asp:HyperLink>&nbsp  &nbsp
+         </div>
+         <div class="logo-container">
+             <img src="images/logo.png" alt="Site Logo" class="site-logo" />
+         </div>
+     </div>
+
+     <div>
+         <asp:ContentPlaceHolder ID="MainContent" runat="server">
+         </asp:ContentPlaceHolder>
+     </div>
+ </form>
+</body>
+</html>
