@@ -14,10 +14,3 @@ packages/
 # Database log files
 *.ldf
 
-# Claude Code
-.claude/
-CLAUDE.md
-
-# Reference docs
-example.md
-report.md
